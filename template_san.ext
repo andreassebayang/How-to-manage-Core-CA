@@ -1,0 +1,10 @@
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, keyEncipherment
+extendedKeyUsage = serverAuth
+subjectAltName = @alt_names
+
+[alt_names]
+DNS.1 = ldap.homelab.internal
+DNS.2 = phpldapadmin.homelab.internal
+IP.1 = 10.66.40.20
